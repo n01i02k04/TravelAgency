@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BusinessAssistant</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="deleteButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Удалить тур</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="id_tour">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>221</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(186, 186, 186);
+border-radius: 3px;
+background-color: white;
+color: black;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>ID тура</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toursButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>330</y>
+      <width>211</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Туры</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableShow">
+    <property name="geometry">
+     <rect>
+      <x>329</x>
+      <y>50</y>
+      <width>641</width>
+      <height>241</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>220</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(85, 85, 255);
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(85, 0, 255);
+	color: white;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

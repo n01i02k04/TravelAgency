@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BusinessAssistant</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="newClientButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>181</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Новый клиент</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewClientButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Просмотр клиентов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dealButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Оформление сделки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="returnButton">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>110</y>
+      <width>181</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Возврат тура</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salesButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>180</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+	border-radius: 6px;
+	background-color: white;
+	color: rgb(85, 85, 255);
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgbrgb(240, 255, 255);
+	color: rgb(85, 0, 255);
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #BEB775;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Список продаж</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
